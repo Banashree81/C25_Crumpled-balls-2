@@ -25,10 +25,9 @@ function setup() {
 function draw() {
   background(180);
   text(mouseX + ' , '+mouseY, mouseX, mouseY);
-  platform.display();
-  paper.display();
+  platform.display();  
   dustbin.display();
- 
+  paper.display();
   
  
 }
